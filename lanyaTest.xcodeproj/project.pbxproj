@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4759D78C1F2AEF6F0082D029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759D78B1F2AEF6F0082D029 /* main.m */; };
+		4759D78F1F2AEF6F0082D029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759D78E1F2AEF6F0082D029 /* AppDelegate.m */; };
+		4759D7921F2AEF6F0082D029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759D7911F2AEF6F0082D029 /* ViewController.m */; };
+		4759D7951F2AEF6F0082D029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4759D7931F2AEF6F0082D029 /* Main.storyboard */; };
+		4759D7971F2AEF6F0082D029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4759D7961F2AEF6F0082D029 /* Assets.xcassets */; };
+		4759D79A1F2AEF6F0082D029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4759D7981F2AEF6F0082D029 /* LaunchScreen.storyboard */; };
+		4759D7A51F2AEF700082D029 /* lanyaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759D7A41F2AEF700082D029 /* lanyaTestTests.m */; };
+		4759D7B01F2AEF700082D029 /* lanyaTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759D7AF1F2AEF700082D029 /* lanyaTestUITests.m */; };
+		4759D7BF1F2AEFD80082D029 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759D7BE1F2AEFD80082D029 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4759D7A11F2AEF700082D029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4759D77F1F2AEF6F0082D029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4759D7861F2AEF6F0082D029;
+			remoteInfo = lanyaTest;
+		};
+		4759D7AC1F2AEF700082D029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4759D77F1F2AEF6F0082D029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4759D7861F2AEF6F0082D029;
+			remoteInfo = lanyaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4759D7871F2AEF6F0082D029 /* lanyaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lanyaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4759D78B1F2AEF6F0082D029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4759D78D1F2AEF6F0082D029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4759D78E1F2AEF6F0082D029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4759D7901F2AEF6F0082D029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4759D7911F2AEF6F0082D029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4759D7941F2AEF6F0082D029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4759D7961F2AEF6F0082D029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4759D7991F2AEF6F0082D029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4759D79B1F2AEF700082D029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4759D7A01F2AEF700082D029 /* lanyaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanyaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4759D7A41F2AEF700082D029 /* lanyaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lanyaTestTests.m; sourceTree = "<group>"; };
+		4759D7A61F2AEF700082D029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4759D7AB1F2AEF700082D029 /* lanyaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanyaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4759D7AF1F2AEF700082D029 /* lanyaTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lanyaTestUITests.m; sourceTree = "<group>"; };
+		4759D7B11F2AEF700082D029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4759D7BE1F2AEFD80082D029 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4759D7841F2AEF6F0082D029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4759D7BF1F2AEFD80082D029 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4759D79D1F2AEF700082D029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4759D7A81F2AEF700082D029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4759D77E1F2AEF6F0082D029 = {
+			isa = PBXGroup;
+			children = (
+				4759D7891F2AEF6F0082D029 /* lanyaTest */,
+				4759D7A31F2AEF700082D029 /* lanyaTestTests */,
+				4759D7AE1F2AEF700082D029 /* lanyaTestUITests */,
+				4759D7881F2AEF6F0082D029 /* Products */,
+				4759D7BD1F2AEFD70082D029 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4759D7881F2AEF6F0082D029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4759D7871F2AEF6F0082D029 /* lanyaTest.app */,
+				4759D7A01F2AEF700082D029 /* lanyaTestTests.xctest */,
+				4759D7AB1F2AEF700082D029 /* lanyaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4759D7891F2AEF6F0082D029 /* lanyaTest */ = {
+			isa = PBXGroup;
+			children = (
+				4759D78D1F2AEF6F0082D029 /* AppDelegate.h */,
+				4759D78E1F2AEF6F0082D029 /* AppDelegate.m */,
+				4759D7901F2AEF6F0082D029 /* ViewController.h */,
+				4759D7911F2AEF6F0082D029 /* ViewController.m */,
+				4759D7931F2AEF6F0082D029 /* Main.storyboard */,
+				4759D7961F2AEF6F0082D029 /* Assets.xcassets */,
+				4759D7981F2AEF6F0082D029 /* LaunchScreen.storyboard */,
+				4759D79B1F2AEF700082D029 /* Info.plist */,
+				4759D78A1F2AEF6F0082D029 /* Supporting Files */,
+			);
+			path = lanyaTest;
+			sourceTree = "<group>";
+		};
+		4759D78A1F2AEF6F0082D029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4759D78B1F2AEF6F0082D029 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4759D7A31F2AEF700082D029 /* lanyaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4759D7A41F2AEF700082D029 /* lanyaTestTests.m */,
+				4759D7A61F2AEF700082D029 /* Info.plist */,
+			);
+			path = lanyaTestTests;
+			sourceTree = "<group>";
+		};
+		4759D7AE1F2AEF700082D029 /* lanyaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4759D7AF1F2AEF700082D029 /* lanyaTestUITests.m */,
+				4759D7B11F2AEF700082D029 /* Info.plist */,
+			);
+			path = lanyaTestUITests;
+			sourceTree = "<group>";
+		};
+		4759D7BD1F2AEFD70082D029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4759D7BE1F2AEFD80082D029 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4759D7861F2AEF6F0082D029 /* lanyaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4759D7B41F2AEF700082D029 /* Build configuration list for PBXNativeTarget "lanyaTest" */;
+			buildPhases = (
+				4759D7831F2AEF6F0082D029 /* Sources */,
+				4759D7841F2AEF6F0082D029 /* Frameworks */,
+				4759D7851F2AEF6F0082D029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lanyaTest;
+			productName = lanyaTest;
+			productReference = 4759D7871F2AEF6F0082D029 /* lanyaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4759D79F1F2AEF700082D029 /* lanyaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4759D7B71F2AEF700082D029 /* Build configuration list for PBXNativeTarget "lanyaTestTests" */;
+			buildPhases = (
+				4759D79C1F2AEF700082D029 /* Sources */,
+				4759D79D1F2AEF700082D029 /* Frameworks */,
+				4759D79E1F2AEF700082D029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4759D7A21F2AEF700082D029 /* PBXTargetDependency */,
+			);
+			name = lanyaTestTests;
+			productName = lanyaTestTests;
+			productReference = 4759D7A01F2AEF700082D029 /* lanyaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4759D7AA1F2AEF700082D029 /* lanyaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4759D7BA1F2AEF700082D029 /* Build configuration list for PBXNativeTarget "lanyaTestUITests" */;
+			buildPhases = (
+				4759D7A71F2AEF700082D029 /* Sources */,
+				4759D7A81F2AEF700082D029 /* Frameworks */,
+				4759D7A91F2AEF700082D029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4759D7AD1F2AEF700082D029 /* PBXTargetDependency */,
+			);
+			name = lanyaTestUITests;
+			productName = lanyaTestUITests;
+			productReference = 4759D7AB1F2AEF700082D029 /* lanyaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4759D77F1F2AEF6F0082D029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ping222s;
+				TargetAttributes = {
+					4759D7861F2AEF6F0082D029 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LV4Y7242C3;
+						ProvisioningStyle = Automatic;
+					};
+					4759D79F1F2AEF700082D029 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LV4Y7242C3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4759D7861F2AEF6F0082D029;
+					};
+					4759D7AA1F2AEF700082D029 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LV4Y7242C3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4759D7861F2AEF6F0082D029;
+					};
+				};
+			};
+			buildConfigurationList = 4759D7821F2AEF6F0082D029 /* Build configuration list for PBXProject "lanyaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4759D77E1F2AEF6F0082D029;
+			productRefGroup = 4759D7881F2AEF6F0082D029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4759D7861F2AEF6F0082D029 /* lanyaTest */,
+				4759D79F1F2AEF700082D029 /* lanyaTestTests */,
+				4759D7AA1F2AEF700082D029 /* lanyaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4759D7851F2AEF6F0082D029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4759D79A1F2AEF6F0082D029 /* LaunchScreen.storyboard in Resources */,
+				4759D7971F2AEF6F0082D029 /* Assets.xcassets in Resources */,
+				4759D7951F2AEF6F0082D029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4759D79E1F2AEF700082D029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4759D7A91F2AEF700082D029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4759D7831F2AEF6F0082D029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4759D7921F2AEF6F0082D029 /* ViewController.m in Sources */,
+				4759D78F1F2AEF6F0082D029 /* AppDelegate.m in Sources */,
+				4759D78C1F2AEF6F0082D029 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4759D79C1F2AEF700082D029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4759D7A51F2AEF700082D029 /* lanyaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4759D7A71F2AEF700082D029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4759D7B01F2AEF700082D029 /* lanyaTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4759D7A21F2AEF700082D029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4759D7861F2AEF6F0082D029 /* lanyaTest */;
+			targetProxy = 4759D7A11F2AEF700082D029 /* PBXContainerItemProxy */;
+		};
+		4759D7AD1F2AEF700082D029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4759D7861F2AEF6F0082D029 /* lanyaTest */;
+			targetProxy = 4759D7AC1F2AEF700082D029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4759D7931F2AEF6F0082D029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4759D7941F2AEF6F0082D029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4759D7981F2AEF6F0082D029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4759D7991F2AEF6F0082D029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4759D7B21F2AEF700082D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4759D7B31F2AEF700082D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4759D7B51F2AEF700082D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV4Y7242C3;
+				INFOPLIST_FILE = lanyaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.lanyaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4759D7B61F2AEF700082D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV4Y7242C3;
+				INFOPLIST_FILE = lanyaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.lanyaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4759D7B81F2AEF700082D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LV4Y7242C3;
+				INFOPLIST_FILE = lanyaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.lanyaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lanyaTest.app/lanyaTest";
+			};
+			name = Debug;
+		};
+		4759D7B91F2AEF700082D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LV4Y7242C3;
+				INFOPLIST_FILE = lanyaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.lanyaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lanyaTest.app/lanyaTest";
+			};
+			name = Release;
+		};
+		4759D7BB1F2AEF700082D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LV4Y7242C3;
+				INFOPLIST_FILE = lanyaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.lanyaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lanyaTest;
+			};
+			name = Debug;
+		};
+		4759D7BC1F2AEF700082D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LV4Y7242C3;
+				INFOPLIST_FILE = lanyaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.lanyaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lanyaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4759D7821F2AEF6F0082D029 /* Build configuration list for PBXProject "lanyaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4759D7B21F2AEF700082D029 /* Debug */,
+				4759D7B31F2AEF700082D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4759D7B41F2AEF700082D029 /* Build configuration list for PBXNativeTarget "lanyaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4759D7B51F2AEF700082D029 /* Debug */,
+				4759D7B61F2AEF700082D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4759D7B71F2AEF700082D029 /* Build configuration list for PBXNativeTarget "lanyaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4759D7B81F2AEF700082D029 /* Debug */,
+				4759D7B91F2AEF700082D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4759D7BA1F2AEF700082D029 /* Build configuration list for PBXNativeTarget "lanyaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4759D7BB1F2AEF700082D029 /* Debug */,
+				4759D7BC1F2AEF700082D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4759D77F1F2AEF6F0082D029 /* Project object */;
+}
